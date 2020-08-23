@@ -18,9 +18,9 @@ The Clojure wrapper provides a thin convenience layer atop the Java client.
 (:require [clj-socketio-client.core :as sio])
 
 (def s (sio/make-socket "http://host:port" event-map))
-(sio/emit! s "message" args optional-unique-id)
+(sio/emit! s :message args optional-unique-id)
 ```
-The event map provided to `make-socket` maps standard or custom socket.io event names to variadic [& args] functions, which will be called asynchronously when messages are received.  
+The event map provided to `make-socket` maps standard or custom socket.io event keys to variadic [& args] functions, which will be called asynchronously when messages are received.  
 
 The `args` argument to `emit!` may be a map, a sequential object (list, vector, ...) or a primitive (string, number, true false).  The arguments are JSON-encoded into an array for transmission.
 
