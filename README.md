@@ -7,9 +7,14 @@ A Clojure library that wraps https://github.com/socketio/socket.io-client-java
 ### Leiningen
 
 ```
-[clj-socketio-client "0.1.0-SNAPSHOT"]
+[org.clojars.rockchalkjay/clj-socketio-client "0.1.1"]
 ```
 
+be sure to include clojars in your project.clj
+
+```
+:repositories [["clojars" "https://clojars.org/repo"]]
+```
 ## Usage
 
 The Clojure wrapper provides a thin convenience layer atop the Java client.

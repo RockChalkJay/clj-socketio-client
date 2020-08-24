@@ -1,6 +1,6 @@
-(defproject org.clojars.rockchalkjay/clj-socketio-client "0.1.0"
+(defproject org.clojars.rockchalkjay/clj-socketio-client "0.1.1"
   :description "Clojure wrapper for io.socket/socket.io-client"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/RockChalkJay/clj-socketio-client"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
